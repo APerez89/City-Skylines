@@ -1,0 +1,99 @@
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .topbar {
+        height: 30px;
+    }
+
+    .topbar a {
+        font-size: .8rem;
+    }
+
+    .nav-wrap {
+        height: 100px;
+    }
+
+    .nav-left {
+        width: 160px;
+    }
+
+    .nav-right ul li {
+        font-size: 1rem;
+    }
+
+    .nav-right ul li a {
+        padding-left: 30px;
+    }
+
+    .intro h1 {
+        font-size: 5.5rem;
+    }
+
+    .button {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        margin: 20px 0 0;
+    }
+
+    .search-city {
+        width: 250px;
+    }
+
+    .quote p {
+        font-size: 1.1rem;
+    }
+
+    .video {
+        width: 1000px;
+        height: 450px;
+    }
+
+    iframe {
+        height: 80%;
+    }
+
+    .item {
+        margin-bottom: 20px;
+    }
+
+    .boxes {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 75%;
+        height: 300px;
+        margin: 10px;
+    }
+
+    .foot-left-2 {
+        border-bottom: 1px solid #8f8f8f;
+        margin-bottom: 0;
+        padding-bottom: 50px;
+    }
+
+    .foot-right-1 {
+        margin-top: 0;
+        padding-top: 50px;
+    }
+} /* Tablet View */
+
+@media (min-width: 769px) {
+    .year-exp-wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .item-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer {
+        display: flex;
+    }
+}
